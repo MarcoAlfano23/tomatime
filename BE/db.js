@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize')
-const {CREDENTIALS} = require('./credentials')
+const {CREDENTIALS} = require('./credentials.js')
 
-const sequelize = new Sequelize(CREDENTIALS.database, CREDENTIALS.username, CREDENTIALS.password, {
+const sequelize = new Sequelize(CREDENTIALS.database,CREDENTIALS.username,CREDENTIALS.password, {
     host :'localhost',
     dialect : 'mysql'
 });
