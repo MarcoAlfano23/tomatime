@@ -328,6 +328,7 @@ body {
   color: #D33A2C;
   font-size: 20px;
   font-family: 'sora' sans-serif;
+  font-weight: 800;
   margin-top: 7px;
   position: absolute;
   margin-left: 20px;
@@ -582,4 +583,12 @@ body {
   height: 60px;
  
 
+}
+
+.error-text{
+  color: red;
+  font-size: 18px;
+  font-family: 'sora', sans-serif;
+  margin: 1px 20px -40px 20px;
+  padding-top: 85px;
 }

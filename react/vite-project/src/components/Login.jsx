@@ -30,7 +30,7 @@ const Login = ({ onLogin }) => {
 
       <form onSubmit={handleLogin} className="login-form">
         <span className="title-form">LOGIN</span>
-        {error && <p className="error">{error}</p>}
+        {error && <p className="error"> {error}</p>}
         <input
           type="email"
           placeholder="yourmail@mail.com"
