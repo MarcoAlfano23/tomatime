@@ -27,7 +27,7 @@ function Tomate({ userId }) {
     <div className="status-counter">
       <div className="">
         <img src={Tomateicon} alt="Tomate icon" className='tomateicon'/>
-        <span>{tomateCount}</span>
+        <span className='count'>{tomateCount}</span>
       </div>
     </div>
   );
